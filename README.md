@@ -1,4 +1,4 @@
-# my first project
+# my first JS project
 i wrote a game using javascript where you can play rock paper scissors with your computer. there is no html, you have to go to your console to play.
 
 ## please
