@@ -5,4 +5,4 @@ i wrote a game using javascript where you can play rock paper scissors with your
 don't misspell anything because i have not written any code that can deal with any wrong words or any bad spelling. my code assumes you will say the right thing.
 
 ## remember
-to have fun and try out all possibilities!
+to have fun and try out all possibiliti
