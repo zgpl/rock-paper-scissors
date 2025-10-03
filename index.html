@@ -3,11 +3,91 @@
     <head>
         <meta charset= "UTF-8">
         <meta name= "viewport" content="width=device-width, initial-scale=1.0">
-        <title>rock paper scissors</title>
+        <title>LET'S PLAY</title>
+        <style>
+            body {
+                font-family: "Times New Roman", Times, serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 5px;
+                background-color: palegoldenrod;
+            }
+            h1 {
+                color: rebeccapurple;
+                font-size: 50px;
+            }
+
+            #options {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                }
+
+            button.btn {
+                font-family: "Times New Roman", Times, serif;
+                cursor: pointer;
+                color: whitesmoke;
+                background-color: darkcyan;
+                font-size: 20px;
+                border-color: transparent;
+                margin: 10px;
+                padding: 8px 15px;
+                border-radius: 10px;
+            }
+
+            button.btn:hover {
+                background-color: purple; 
+                }
+            
+            #again {
+                visibility: hidden;
+                font-family: "Times New Roman", Times, serif;
+                cursor: pointer;
+                color: whitesmoke;
+                background-color: darkcyan;
+                font-size: 20px;
+                border-color: transparent;
+                margin: 10px;
+                padding: 8px 15px;
+                border-radius: 10px;
+            }
+
+            #again:hover {
+                background-color: purple;
+            }
+
+            #result, #winner {
+                font-size: 20px;
+            }
+
+            #second {
+                margin-top: 20px;
+                }
+
+        </style>
     </head>
     <body>
+        <h1>rock paper scissors</h1>
+        <div id = "options">
+            <button class="btn" id="rock">rock</button>
+            <button class="btn" id="paper">paper</button>
+            <button class="btn" id="scissors">scissors</button>
+        </div>
 
-        <script src="game.js">
+             <div id = "result">
+        </div>
+            <div id = "winner">
+        </div>
+
+            <div id = "second">
+                <br><button id="again">play again!</button>
+        </div>
+
+        <script src="game.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js">
         </script>
+
     </body>
 </html>
